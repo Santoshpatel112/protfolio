@@ -1,0 +1,629 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.front-page{
+    /* background-image: linear-gradient(rgb(248 243 248),rgb(250 241 250),rgba(252 141 254 / 0.47)); */
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 10px;
+    padding-left: 5vw;
+}
+.nav-child-cildern{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+.nav-child-cildern h4{
+    padding-left: 2vw;
+    font-weight: 500;
+    cursor: pointer;
+    font-family:Salsa;
+    font-size: 25px;
+    font-weight: bolder;
+    transition: 0.5s;
+    position: relative;
+}
+.nav-child-cildern a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.nav-child-cildern a::after{
+    background: rgba(208 234 240 / 0.4);
+    height: 5px;
+    content: "";
+    position: absolute;
+    /* left: 2px; */
+    bottom: -6px;
+    width: 0%;
+    transition: 0.5s;
+}
+.nav-child-cildern a:hover::after{
+    width: 100%;
+}
+.navchild h2{
+    font-weight: 600;
+    margin-left: 2vw;
+    font-weight: 700;
+}
+.mid{
+    display: flex;
+    align-content: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.midchild-left{
+    /* background-color: aqua; */
+    width: 50%;
+    height: 100%;
+        /* border: 2px solid grey; */
+        /* display: flex; */
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-top: 12vh;
+}
+.social{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-between; */
+    margin-right:20vw;
+}
+.social-child a{
+    color: black;
+    text-decoration: none;
+
+}
+.social i{
+    margin: .5vh;
+    padding: 8px;
+    font-size: 5vh;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.midchild-right{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid grey; */
+    /* background-color: blue; */
+}
+.midchild-left h1{
+    font-size: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 7vw;
+    margin-top: 2vh;
+    font-weight: bolder;
+    font-size:45px;
+}
+.midchild-left h1 span{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/10/Colorful-Abstract-Backgrounds.jpg');
+    background-size: cover;
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+.midchild-left p{
+        margin-left: 7vw;
+        font-weight: 450;
+        font-size: larger;
+
+
+}
+.book{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 8vh;
+    margin-left: 7vw;
+}
+.book button {
+    font-size: 20px;
+    color: white;
+    background-color: dimgray;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+}
+.cv span{
+    font-weight: 630;
+    margin-left: 2vw;
+}
+.cv a{
+    text-decoration: none;
+    color: black;
+}
+.midchild-right img{
+    border-radius: 50%;
+    margin-left: 15vw;
+    margin-top: 7vh;
+}
+.servise{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#serv{
+    text-align: center;
+    font-weight: 600;
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.0-1-8CZOSxu75G6MkOXclQHaEK&pid=Api&rs=1&c=1&qlt=95&w=171&h=96');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 640;
+}
+#up{
+    text-align: center;
+    font-weight: 700;
+}
+.content{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+}
+.child1{
+    width: 25vw;
+    height: 78vh;
+    background-color:whitesmoke;    
+    /* border: 2px solid #568; */
+}
+.child2{
+    width: 25vw;
+    height: 78vh;
+    background-color:whitesmoke;
+        /* border: 2px solid #568; */
+}
+.child3{
+    width: 25vw;
+    height: 78vh;
+    background-color: whitesmoke;
+    /* border: 2px solid #656; */
+}
+.section1{
+    margin-top: 10vh;
+}
+.child1 i{
+    font-size: 4vw;
+    margin-left: 1.6vw;
+}
+.child1 h4{
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.child2 h4{
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.child3 h4{
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.child2 i{
+    font-size: 4vw;
+    margin-left: 1.6vw;
+}
+.child3 i{
+    font-size: 4vw;
+    margin-left: 1.6vw;
+}
+.child1 p{
+    margin-left: 1.6vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.child2 p{
+    margin-left: 1.6vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.child3 p{
+    margin-left: 1.6vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul li{
+    font-size: 1.4vw;
+    font-weight: 600;
+}
+.study{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.edu{
+    width: 50%;
+    /* background-color: mediumvioletred; */
+    border: 3px solid black;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+.work{
+        width:50%;
+    /* background-color: aqua; */
+    border: 3px solid black;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.edu h2{
+    background-image: url('https://wallup.net/wp-content/uploads/2018/09/28/655980-wallpapers-colors-colorful-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 8vw;
+    font-weight: 700;
+}
+.work h2{
+    background-image: url('https://wallup.net/wp-content/uploads/2018/09/28/655980-wallpapers-colors-colorful-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 7vw;
+        font-weight: 700;
+
+}
+.standford p{
+    margin-left: 3vw;
+}
+.box{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-left: 8vw;
+    margin-right: 15vw;
+    margin-top: 10vh;
+}
+.product1{
+    margin-top: 3vw;
+    width: 25vw;
+    height: 20vh;
+}
+.product2{
+        width: 38vw;
+    height: 20vh;
+
+}
+.product1 h3{
+    background-image: url('https://wallup.net/wp-content/uploads/2018/09/28/655980-wallpapers-colors-colorful-background.jpg');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-position: center;
+    font-size: 43px;
+    margin-bottom: 5vw;
+    font-weight: bold;
+}
+.product1 h2{
+    font-size:35px;
+    font-weight: 800;
+}
+.product2 p{
+    font-size: larger;
+    font-weight: 600;
+}
+.pic{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content:space-evenly;
+}
+.photo1{
+    background-image: url('https://i.pinimg.com/736x/fa/44/2d/fa442d3d5f5cc68bdcd516282c15e26d.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 20vw;
+    height: 75vh;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.photo1:hover{
+    transform: scale(1.1);
+}
+.photo2{
+    background-image: url('https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/web_ilY3NoA.jpeg');
+    background-position: center;
+    background-size: cover;
+    width: 28vw;
+    height: 75vh;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.photo2:hover{
+    transform: scale(1.1);
+}
+.photo3{
+    background-position: center;
+    width: 20vw;
+    height: 75vh;
+}
+
+.pic1{
+    width: 20vw;
+    height:35.5vh;
+    background-color: aquamarine;
+        background-image:url('https://tse4.mm.bing.net/th?id=OIP.WDRZHEom9__N8Sofhzg8awHaEK&pid=Api&P=0&h=180');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        transition: 0.5s;
+}
+.pic1:hover{
+    transform: scale(1.1);
+}
+.pic2{
+    margin-top: 2vh;
+    width: 20vw;
+    height:37.5vh;
+    background-color: mediumblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+        background-image:url('https://tse2.mm.bing.net/th?id=OIP.yn1jJ3nBEOvQtqiY8C0i0QHaE7&pid=Api&P=0&h=180');
+        transition: 0.5s;
+}
+.pic2:hover{
+    transform: scale(1.1);
+}
+.into{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.u{
+    width: 40vw;
+    height: 98vh;
+}
+.coment{
+    margin-left: 5vw;
+    width: 45vw;
+    height: 98vh;
+}
+.section4{
+    margin-top: 15vh;
+}
+.u h5{
+    background-image: url('https://wallup.net/wp-content/uploads/2018/09/28/655980-wallpapers-colors-colorful-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+font-weight: 700;
+font-size: 30px;
+cursor: none;
+}
+.u h3{
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+font-weight: 700;
+font-size: 40px;
+/* margin-left: 2vw; */
+}
+.u img{
+    margin-top: 4vh;
+    width: 25vw;
+    background-color: gray;
+    border-radius: 10px;
+    background-color: silver;
+}
+.coment h1{
+    margin-top: 25vh;
+    font-weight: 600;
+}
+.coment h1 i{
+    font-size: 60px;
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/10/Colorful-Abstract-Backgrounds.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.coment p{
+    margin-top: 5vw;
+    font-weight: 600;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.c2{
+    margin-right: 4vw;
+    margin-top: 12vh;
+    width: 4vw;
+    height: 4vh;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.left i{
+    font-size: 2vw;
+    cursor: pointer;
+}
+.right i{
+    font-size: 2vw;
+    cursor: pointer;
+}
+.section5{
+    margin-top: 5vh;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.contect-page{
+    /* margin-top: 8vw; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contect{
+    width: 30vw;
+    height: 75vh;
+    background-color: dimgray;
+    border-radius: 20px;
+    margin-left: 10vw;
+}
+
+.contect-box{
+    width: 50vw;
+    height: 78vh;
+    background-color: black;
+}
+.contect h1{
+    color: white;
+    font-weight: 800;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.contect p{
+    font-size: larger;
+    color: white;
+    font-weight: 500;
+    margin-left: 5vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+.contect-Social{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.s{
+    margin-top: 1vh;
+    width: 1vw;
+    height: 1vw;
+    font-size: larger;
+    color: white;
+    margin-right: 1vw;
+}
+.s a{
+    text-decoration: none;
+    color: white;
+    
+}
+.s i{
+    cursor: pointer;
+}
+.contect button{
+    margin-left: 5vw;
+    color: white;
+    background-color: maroon;
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: 4vw;
+    border: 2px solid white;
+    padding: 4px;
+}
+.contect p a{
+    text-decoration: none;
+    color: white;
+}
+.contect button a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.message{
+    margin-top: 1vw;
+    margin-left: 2vw;
+    width: 45vw;
+    height: 75vh;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: dimgray;
+    border-radius: 10px;
+}
+.name input{
+        background-color: rgb(61 73 61);
+    width: 30vw;
+    height: 5vh;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+}
+.mail input{
+        background-color: rgb(61 73 61);
+    margin-top: 2vw;
+    width: 30vw;
+    height: 5vh;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+}
+.msg textarea{
+    background-color: rgb(61 73 61);
+    margin-top: 4vw;
+    width: 30vw;
+    height: 20vh;
+    border: 1px solid dimgray;
+    border-radius: 5px;
+}
+
+.message button{
+    margin-top: 3vh;
+    margin-left: 18vw;
+    font-weight: 600;
+    font-size: 28px;
+    width: 8vw;
+    height: 8vh;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: maroon;
+    color: white;
+}
+@media (min-width: 768px) {
+
+}

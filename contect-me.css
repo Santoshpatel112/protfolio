@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section5{
+    margin-top: 5vh;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.contect-page{
+    /* margin-top: 8vw; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contect{
+    width: 30vw;
+    height: 75vh;
+    background-color: dimgray;
+    border-radius: 20px;
+    margin-left: 10vw;
+}
+.s a{
+    text-decoration: none;
+    color: white;
+    
+}
+.contect p a{
+    text-decoration: none;
+    color: white;
+}
+
+.contect-box{
+    width: 50vw;
+    height: 78vh;
+    background-color: black;
+}
+.contect h1{
+    color: white;
+    font-weight: 800;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.contect p{
+    font-size: larger;
+    color: white;
+    font-weight: 500;
+    margin-left: 5vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+.contect-Social{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.s{
+    margin-top: 1vh;
+    width: 1vw;
+    height: 1vw;
+    font-size: larger;
+    color: white;
+    margin-right: 1vw;
+}
+.s i{
+    cursor: pointer;
+}
+.contect button{
+    margin-left: 5vw;
+    color: white;
+    background-color: gold;
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: 4vw;
+    border: 2px solid white;
+    padding: 4px;
+}
+.contect button a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.contect-Social{
+    margin-top: 5vw;
+}
+.s{
+    font-size: 3vw;
+    padding: 30px;
+    text-align: center;
+}
+.message{
+    margin-top: 1vw;
+    margin-left: 2vw;
+    width: 45vw;
+    height: 75vh;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: dimgray;
+    border-radius: 10px;
+}
+.name input{
+        background-color: rgb(61 73 61);
+    width: 30vw;
+    height: 5vh;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+}
+.mail input{
+        background-color: rgb(61 73 61);
+    margin-top: 2vw;
+    width: 30vw;
+    height: 5vh;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+}
+.msg textarea{
+    background-color: rgb(61 73 61);
+    margin-top: 4vw;
+    width: 30vw;
+    height: 20vh;
+    border: 1px solid dimgray;
+    border-radius: 5px;
+}
+
+.message button{
+    margin-top: 3vh;
+    margin-left: 18vw;
+    font-weight: 600;
+    font-size: 28px;
+    width: 8vw;
+    height: 8vh;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: maroon;
+    color: white;
+}

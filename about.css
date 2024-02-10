@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 10px;
+    padding-left: 5vw;
+}
+.nav-child-cildern{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+h4{
+    padding-left: 2vw;
+    font-weight: 500;
+    cursor: pointer;
+    font-family:Salsa;
+    font-size: 25px;
+    font-weight: 600;
+}
+.navchild h2{
+    font-weight: 600;
+    margin-left: 2vw;
+    font-size: 40px;
+    cursor: pointer;
+}
+.navchild h2 a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-image: linear-gradient(rgb(72 63 80),rgb(202 233 248),rgba(252 244 156 / 0.47));
+        
+}
+.section5{
+    margin-top: 5vh;
+    /* background-image: url('https://tse2.mm.bing.net/th?id=OIP.SPRW8P8Nrxrrir_Zu69aDwHaEK&pid=Api&P=0&h=180'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;greenyellow
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+
+.contect-page{
+    /* margin-top: 8vw; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contect{
+    width: 32vw;
+    height: 75vh;
+    background-image: url('ssss.png');
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 50%; */
+    margin-left: 10vw;
+    /* border: 2px solid gainsboro; */
+}
+
+.contect-box{
+    margin-left: 5vw;
+    width: 50vw;
+    height: 80vh;
+    background-image:radial-gradient(rgb(55 58 57),rgb(240 216 216));
+
+}
+.contect h1{
+    color: white;
+    font-weight: 800;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.contect-Social{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.message{
+    margin-top: 1vw;
+    margin-left: 2vw;
+    width: 50vw;
+    height: 80vh;
+    background-color: dimgray;
+}
+.message h1{
+    padding-top: 3vw;
+    padding-left: 5vw;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+}
+.message h3{
+    padding-left: 5vw;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+}
+.message p{
+    padding-top: 3.3vw;
+    padding-left: 5vw;
+    /* font-weight: bolder; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.message button{
+    width: 9vw;
+    height: 4vw;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 5vw;
+    background-color:white;   
+    margin-top: 2vw;
+    color: white;
+}
+.message button a{
+    text-decoration: none;
+    color: black;
+}
